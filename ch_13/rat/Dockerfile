@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 RUN apt update && apt -y upgrade
 RUN apt -y install openssh-server
